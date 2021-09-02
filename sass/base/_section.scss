@@ -1,0 +1,42 @@
+.section {
+  padding: 60px 0;
+
+  &-title {
+    @include font(700, 28px, 0.03em, $primary-font-family);
+    color: $title-text-color;
+    text-align: center;
+    line-height: 1.17;
+    margin-bottom: 30px;
+  }
+  &-work-example {
+    padding-bottom: 94px;
+  }
+  &-team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background: #f5f4fa;
+  }
+}
+
+.section-work-example {
+  display: none;
+  @include for-desktop {
+    display: flex;
+  }
+}
+
+.section {
+  @include for-desktop {
+    padding: 94px 0px;
+    &-team {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+    &-title {
+      font-size: 36px;
+      line-height: 1.16;
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pwd",
+  "version": "1.0.0",
+  "description": "hw-08-gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Kateryna Lutska",
+  "license": "ISC",
+  "homepage": ""
+}

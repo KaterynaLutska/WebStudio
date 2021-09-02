@@ -1,0 +1,29 @@
+.logo {
+  @include font(700, 24px, 0.03em, $secondary-font-family);
+  line-height: 1.16;
+  color: #000000;
+
+  &-blue {
+    color: $accent-color;
+  }
+
+  &-white {
+    color: white;
+  }
+
+  &.header {
+    padding: 24px 0 25px 0;
+    display: flex;
+  }
+}
+
+.logo.header {
+  @include for-tablet {
+    margin-right: 88px;
+  }
+  @include for-desktop {
+    font-size: 26px;
+    margin-right: 85px;
+    line-height: 1.19;
+  }
+}
